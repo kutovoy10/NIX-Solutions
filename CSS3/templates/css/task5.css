@@ -2,6 +2,6 @@
     color: red;
 }
 
-p ~ div {
+div ~ p  {
     background: blue;
 }
