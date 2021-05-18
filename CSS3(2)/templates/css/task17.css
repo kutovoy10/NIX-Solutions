@@ -1,0 +1,8 @@
+main > div {
+    outline: 4px dashed red;
+}
+
+p {
+    outline-style: double;
+    outline-offset: -5px;
+}

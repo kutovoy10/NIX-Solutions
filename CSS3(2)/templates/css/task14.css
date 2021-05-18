@@ -1,0 +1,37 @@
+table {
+    width: 200px;
+    height: 200px;
+    border-collapse: collapse;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.blue.top {
+    border-radius: 50% 50% 0 0;
+}
+
+.red {
+    background-color: red;
+}
+
+.red.top-left {
+    border-radius: 50% 0 0 0;
+}
+
+.red.right {
+    border-radius: 0 50% 50% 0;
+}
+
+.blue.circle {
+    border-radius: 50%;
+}
+
+.blue.bottom {
+    border-radius: 0 0 50% 50%;
+}
+
+.red.bottom-left {
+    border-radius: 0 0 0 50%;
+}
