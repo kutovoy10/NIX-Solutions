@@ -1,0 +1,38 @@
+div {
+    color: #ffffff;
+}
+
+.block-1 {
+    float: left;
+    width: 25%;
+}
+
+.block-2 {
+    float: left;
+    width: 75%;
+}
+
+.block-3 {
+    float: right;
+    width: 40%;
+}
+
+.block-4 {
+    float: left;
+    width: 60%;
+}
+
+.block-5 {
+    float: right;
+    width: 25%;
+}
+
+.block-6 {
+    float: left;
+    width: 25%;
+}
+
+.block-7 {
+    float: right;
+    width: 50%;
+}

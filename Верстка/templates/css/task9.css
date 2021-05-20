@@ -1,0 +1,14 @@
+ul {
+    list-style: none;
+    width: 25%;
+}
+
+.sublist{
+    display: none;
+    text-align: right;
+    background-color: red;
+}
+
+ul li + li:hover .sublist {
+    display: block;
+}

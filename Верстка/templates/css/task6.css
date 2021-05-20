@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 500px;
+}
+
+.aside {
+    width: 30%;
+    float: left;
+}
+
+.main {
+    margin-left: 30%;
+}
+
+.aside {
+    border: 1px dotted black;
+}
+
+.main {
+    border: 1px solid black;
+}
