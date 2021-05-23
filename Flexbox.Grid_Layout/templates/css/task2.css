@@ -1,0 +1,43 @@
+section div {
+    padding: 5px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+div[class|='flex-container'] {
+    display: flex;
+}
+
+.media-400 {
+    width: 400px;
+}
+
+.media-400 div {
+    flex-basis: 120px;
+}
+
+.media-400 .item-2,
+.media-400 .item-4 {
+    flex-shrink: 3;
+}
+
+.media-500 {
+    width: 500px;
+}
+
+.media-500 div {
+    flex: auto;
+}
+
+.media-600 {
+    width: 600px;
+}
+.media-600 .item-1,
+.media-600 .item-2 {
+    flex-grow: 1;
+}
+
+.media-600 .item-3,
+.media-600 .item-4 {
+    flex-grow: 2;
+}

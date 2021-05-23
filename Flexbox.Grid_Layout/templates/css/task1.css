@@ -1,0 +1,28 @@
+section div {
+    padding: 5px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.flex-container {
+    height: 400px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item-1 {
+    align-self: flex-start;
+}
+
+.item-2,
+.item-4 {
+    align-self: center;
+}
+
+.item-5 {
+    align-self: flex-end;
+}
