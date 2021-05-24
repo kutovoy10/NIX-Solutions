@@ -1,0 +1,129 @@
+.product-card {
+  display: flex;
+  justify-content: space-between;
+
+  &__left {
+    width: 700px;
+  }
+
+  &__right {
+    flex: 1;
+    padding-left: 60px;
+  }
+
+  &__img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  &__characteristics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 4px solid $orange-light;
+    margin-bottom: 40px;
+
+    li {
+      font-size: 24px;
+      line-height: 30px;
+      font-weight: 700;
+      color: $black;
+      padding-top: 7px;
+      margin-top: -4px;
+      border-top: 4px solid transparent;
+
+      &.active {
+        border-color: $orange;
+      }
+    }
+  }
+
+  &__description {
+    font-size: 16px;
+    font-weight: 400;
+    color: $black;
+    line-height: 35px;
+  }
+
+  &__title {
+    font-size: 24px;
+    line-height: 39px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  &__price {
+    font-size: 36px;
+    line-height: 59px;
+    margin-bottom: 20px;
+  }
+
+  &__parameter {
+    display: flex;
+    flex-direction: column;
+
+    &-title {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 300;
+      margin-bottom: 10px;
+    }
+
+    &-list {
+      display: flex;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    &-item {
+      border: 1px solid #120F1B;
+      box-sizing: border-box;
+      border-radius: 4px;
+      padding: 7px 15px;
+      margin-right: 15px;
+      line-height: 16px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: .3s ease-in-out;
+
+      &.active {
+        background: #2434DA;
+        color: $white;
+      }
+
+      &:hover {
+        background: #e0e0e0;
+        transition: .3s ease-in-out;
+      }
+    }
+  }
+
+  &__quantity {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #B3B3B3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 7px 15px;
+    font-weight: 500;
+    margin-bottom: 50px;
+
+    &-number {
+      margin: 0 20px;
+    }
+
+    &-minus,
+    &-plus {
+      font-size: 20px;
+      cursor: pointer;
+    }
+  }
+
+  &__btn {
+    @include blue-btn;
+    min-width: 200px;
+  }
+}

@@ -1,0 +1,68 @@
+.main {
+  padding: 100px 0;
+  min-height: calc(100vh - 117px - 167px);
+
+  &-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 30px;
+    margin-bottom: 55px;
+  }
+
+  .advantages {
+    margin-bottom: 70px;
+
+    & .main-title {
+      margin-bottom: 35px;
+    }
+
+    &__list {
+      display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+    }
+
+    &__item {
+      width: 23%;
+      padding: 35px;
+      box-sizing: border-box;
+      border-radius: 6px;
+
+      &--grey {
+        background: $grey-light-bg;
+      }
+
+      &--orange {
+        background: $orange-light-bg;
+      }
+
+      &--yellow {
+        background: $yellow-light-bg;
+      }
+
+      &--green {
+        background: $green-light-bg;
+      }
+    }
+
+    &__img {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+
+    &__title {
+      font-size: 20px;
+      line-height: 25px;
+      font-weight: 500;
+      color: $black;
+      margin-bottom: 10px;
+    }
+
+    &__text {
+      font-size: 14px;
+      line-height: 22px;
+      color: $black;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@mixin blue-btn {
+  display: inline-block;
+  text-align: center;
+  color: $white;
+  background: $blue;
+  border-radius: 6px;
+  padding: 12px 26px;
+  font-weight: 700;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: .3s ease-in-out;
+
+  &:hover {
+    background: $blue-hover;
+    border-color: $white;
+    transition: .3s ease-in-out;
+  }
+}
+
+@mixin input {
+  border: 1px solid $silver;
+  box-sizing: border-box;
+  border-radius: 6px;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 13px 125px 13px 40px;
+  color: $silver;
+  outline: none;
+}

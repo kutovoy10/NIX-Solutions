@@ -1,0 +1,15 @@
+@import "vars";
+@import "mixins";
+@import "libs";
+@import "fonts";
+@import "defolts";
+
+@import "templates/header";
+@import "templates/footer";
+@import "templates/index";
+@import "templates/catalog";
+@import "templates/product";
+@import "templates/basket";
+@import "templates/delivery";
+
+@import "media";

@@ -1,0 +1,26 @@
+.catalog {
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__block {
+    width: 49%;
+    height: 310px;
+    box-sizing: border-box;
+    margin-right: 2%;
+    background: url('/img/category/med.svg') center/cover no-repeat;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    transition: .3s ease-in-out;
+
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+
+    &:hover {
+      transform: scale(1.04);
+      transition: .3s ease-in-out;
+    }
+  }
+}
