@@ -2,14 +2,16 @@ const btn = document.querySelector('.random__btn');
 const result = document.querySelector('.random__result');
 
 btn.addEventListener('click', () => {
-    let quantity = +document.querySelector('.random__quantity').value;
-    let min = +document.querySelector('.random__min').value;
-    let max = +document.querySelector('.random__max').value;
+    let quantity = document.querySelector('.random__quantity').value;
+    let min = document.querySelector('.random__min').value;
+    let max = document.querySelector('.random__max').value;
 
-    if (min < max && quantity > 0) {
-        generateNumber(quantity, min, max);
-    } else {
-
+    if (min != '' && max != '' && +min < +max && +quantity > 0) {
+        generateNumber(+quantity, +min, +max);
+    } else if (min == '' || max == '') {
+        alert('Введите все числа!')
+    } else if (+min > +max) {
+        alert('Минимальное число не может быть больше/равно максимальному!')
     }
 })
 

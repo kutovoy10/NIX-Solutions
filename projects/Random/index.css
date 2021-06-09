@@ -69,4 +69,7 @@ input:focus {
     border: 1px solid #4bc1c1;
     background: #f7ffff;
     padding: 10px 15px;
+    max-height: 300px;
+    max-width: 100%;
+    overflow-y: scroll;
 }
