@@ -83,6 +83,12 @@ button:hover {
     transition: all .2s ease-in-out;
 }
 
+button.btn-grey.btn-ac {
+    width: 165px;
+    border-radius: 26px;
+    z-index: 1;
+}
+
 .calculator .btn-grey:hover {
     background-color: #dddada;
     color: #000000;

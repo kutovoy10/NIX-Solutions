@@ -1,7 +1,6 @@
 const prev = document.querySelector('.prev');
 const current = document.querySelector('.current');
 const btnClear = document.querySelector('.btn-ac');
-const btnDelete = document.querySelector('.btn-delete');
 const btnOperation = document.querySelectorAll('.btn-operation');
 const btnNumbers = document.querySelectorAll('.btn-num');
 const btnSum = document.querySelector('.btn-sum');
@@ -118,10 +117,5 @@ btnSum.addEventListener('click', () => {
 
 btnClear.addEventListener('click', () => {
     calculator.clear();
-    calculator.updateDisplay();
-});
-
-btnDelete.addEventListener('click', () => {
-    calculator.delete();
     calculator.updateDisplay();
 });
