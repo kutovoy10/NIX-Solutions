@@ -16,3 +16,15 @@
     color: #000000;
     border: 1px solid #000;
 }
+
+.green {
+    color: #34ff34 !important;
+}
+
+.used-function {
+    background: #bb3535;
+}
+
+.save-zone {
+    color: yellow;
+}

@@ -1,183 +1,186 @@
 const question = [
     {
         id: 0,
-        title: 'Почему вода в море кажется синей?',
+        title: 'Какая столица Украины?',
         answers: [
-            'A: Из-за водорослей',
-            'B: Из-за цвета дна',
-            'C: Вода отражает небо',
-            'D: Из-за растворенной соли',
+            'A: Киев',
+            'B: Харьков',
+            'C: Львов',
+            'D: Одесса',
         ],
-        rightAnswer: 2,
+        rightAnswer: 0,
         price: 100,
     },
     {
         id: 1,
-        title: 'Чего не может торнадо?',
+        title: 'Какого цвета солнце?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: Красного',
+            'B: Зеленого',
+            'C: Синего',
+            'D: Желтого',
         ],
-        rightAnswer: 0,
+        rightAnswer: 3,
         price: 200
     },
     {
         id: 2,
-        title: 'Чего не может торнадо?',
+        title: 'С чего состоит колобок?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: Изюма',
+            'B: Воды',
+            'C: Теста',
+            'D: Радости',
         ],
-        rightAnswer: 0,
+        rightAnswer: 2,
         price: 300
     },
     {
         id: 3,
-        title: 'Чего не может торнадо?',
+        title: 'Национальная валюта Украины?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: Доллар',
+            'B: Евро',
+            'C: Гривна',
+            'D: Рубль',
         ],
-        rightAnswer: 0,
+        rightAnswer: 2,
         price: 500
     },
     {
         id: 4,
-        title: 'Чего не может торнадо?',
+        title: 'Какая модель телефона самая популярная?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: Nokia',
+            'B: IPhone',
+            'C: Motorola',
+            'D: HTC',
         ],
-        rightAnswer: 0,
-        price: 1000
+        rightAnswer: 1,
+        price: 1000,
+        save: 1000
     },
     {
         id: 5,
-        title: 'Чего не может торнадо?',
+        title: 'Как называется одно из блюд?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: Каша по-генеральски',
+            'B: Картошка по-мундирски',
+            'C: Макароны по-флотски',
+            'D: Селёдка от-кутюр',
         ],
-        rightAnswer: 0,
+        rightAnswer: 2,
         price: 2000
     },
     {
         id: 6,
-        title: 'Чего не может торнадо?',
+        title: 'Что искал Колумб, а в результате открыл Америку?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: Голливуд',
+            'B: Диснейленд',
+            'C: Путь в Индию',
+            'D: Кафе с гамбургерами',
         ],
-        rightAnswer: 0,
+        rightAnswer: 2,
         price: 4000
     },
     {
         id: 7,
-        title: 'Чего не может торнадо?',
+        title: 'Что, согласно русской пословице, должен сделать тот, кто сказал «а»?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: Сказать «б»',
+            'B: Нарисовать «д»',
+            'C: Оценить «я»',
+            'D: Написать «ё»',
         ],
         rightAnswer: 0,
         price: 8000
     },
     {
         id: 8,
-        title: 'Чего не может торнадо?',
+        title: 'Какая из перечисленных башен самая низкая?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: Пизанская',
+            'B: Спасская',
+            'C: Эйфелева',
+            'D: Останкинская',
         ],
         rightAnswer: 0,
         price: 16000
     },
     {
         id: 9,
-        title: 'Чего не может торнадо?',
+        title: 'Чему равна сумма углов треугольника?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: 90 градусов',
+            'B: 100 градусов',
+            'C: 360 градусов',
+            'D: 180 градусов',
         ],
-        rightAnswer: 0,
-        price: 32000
+        rightAnswer: 3,
+        price: 32000,
+        save: 32000
     },
     {
         id: 10,
-        title: 'Чего не может торнадо?',
+        title: 'Как называется крепкий спиртной напиток из сока сахарного тростника?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: Кальвадос',
+            'B: Ром',
+            'C: Джин',
+            'D: Виски',
         ],
-        rightAnswer: 0,
+        rightAnswer: 1,
         price: 64000
     },
     {
         id: 11,
-        title: 'Чего не может торнадо?',
+        title: 'Какого цвета нет на флаге Армении?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: Красный',
+            'B: Белый',
+            'C: Синий',
+            'D: Оранжевый',
         ],
-        rightAnswer: 0,
+        rightAnswer: 1,
         price: 125000
     },
     {
         id: 12,
-        title: 'Чего не может торнадо?',
+        title: 'В каком океане находится глубочайшая на Земле Марианская впадина?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: Атланический',
+            'B: Индийский',
+            'C: Тихий',
+            'D: Северный Ледовитый',
         ],
-        rightAnswer: 0,
+        rightAnswer: 2,
         price: 250000
     },
     {
         id: 13,
-        title: 'Чего не может торнадо?',
+        title: 'В каком виде спорта разыгрывают кубок Стэнли?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: Футбол',
+            'B: Теннис',
+            'C: Велоспорт',
+            'D: Хоккей',
         ],
-        rightAnswer: 0,
+        rightAnswer: 3,
         price: 500000
     },
     {
         id: 14,
-        title: 'Чего не может торнадо?',
+        title: 'Как называется яйцо, сваренное гуще, чем всмятку, но не вкрутую?',
         answers: [
-            'A: Стоять на месте',
-            'B: Поднять в воздух автомобиль',
-            'C: Вырвать с корнями дерево',
-            'D: Разрушить здание',
+            'A: В сумочку',
+            'B: В кулёчек',
+            'C: В мешочек',
+            'D: В рюкзачок',
         ],
-        rightAnswer: 0,
-        price: 1000000
+        rightAnswer: 2,
+        price: 1000000,
+        save: 1000000
     },
 ];
 
@@ -189,6 +192,7 @@ let i = 0;
 let priceSuccess = [];
 let callFriendCheck = true;
 let fiftyFiftyCheck = true;
+let savePriceForEnd = 0;
 
 showStart();
 
@@ -227,21 +231,49 @@ function showMain(i) {
     const callFriendBtn = document.querySelector('.info__help-friend');
     const fiftyFiftyBtn = document.querySelector('.info__help-fifty-fifty');
 
-    callFriendBtn.addEventListener('click', () => {
+    callFriendBtn.addEventListener('click', item => {
         if (callFriendCheck == true) {
             callFriend();
+            callFriendBtn.classList.add('used-function')
+        } else {
+            callFriendBtn.classList.add('used-function')
         }
     });
 
-    fiftyFiftyBtn.addEventListener('click', () => {
+    fiftyFiftyBtn.addEventListener('click', item => {
         if (fiftyFiftyCheck == true) {
             fiftyFifty();
+            fiftyFiftyBtn.classList.add('used-function')
+        } else {
+            fiftyFiftyBtn.classList.add('used-function')
         }
     });
+
+    if (callFriendCheck == false) {
+        callFriendBtn.classList.add('used-function')
+    }
+
+    if (fiftyFiftyCheck == false) {
+        fiftyFiftyBtn.classList.add('used-function')
+    }
+
+    savePrice();
 }
 
 function showQuestion(i) {
     let out = `
+            <div class="question__header">
+                <div class="question__number">Вопрос №` + (i + 1) + `</div>
+                <div class="question__bank">Ваш банк: `;
+
+    if (i >= 1) {
+        out += question[i - 1].price;
+    } else {
+        out += `0`;
+    }
+
+    out += `</div>
+            </div>
             <div class="question__title">` + question[i].title + `</div>
             <div class="question__list" data-question-number="` + i + `">`;
 
@@ -263,7 +295,9 @@ function showOtherFunctions(i) {
         <div class="info block">
             <div class="info__help">
                 <div class="info__help-fifty-fifty">50/50</div>
-                <div class="info__help-friend">Звонок другу</div>
+                <div class="info__help-friend">
+                    <img src="img/phone.svg" alt="phone">
+                </div>
             </div>
 
             <div class="info__table">
@@ -319,7 +353,7 @@ function error() {
         btnNextQuestion.remove();
     }
 
-    modalContent.innerHTML = `К сожалению, но вы ответили неверно, игра окончена! Через 5 секунд игра начнется заново!`;
+    modalContent.innerHTML = `К сожалению, но вы ответили неверно, игра окончена! Ваш выигрыш составляет ` + savePriceForEnd + `. Через 5 секунд игра начнется заново!`;
     modal.style.display = 'block';
     setTimeout(reloadPage, 5000);
     priceSuccess = [];
@@ -330,10 +364,20 @@ function sucess() {
     const modalMain = document.querySelector('.modal__main');
     const btnNextQuestionCheck = document.querySelector('.modal__btn-next-question');
 
-    modalContent.innerHTML = `Поздравляю, вы ответили верно! Вы готовы приступить к следующему вопросу? Если готовы, то нажмите кнопку "Далее".`;
+    if (i < 14) {
+        modalContent.innerHTML = `Поздравляю, вы ответили верно! Вы готовы приступить к следующему вопросу? Если готовы, то нажмите кнопку "Далее".`;
 
-    if (btnNextQuestionCheck == null) {
-        modalMain.insertAdjacentHTML('beforeend', `<div class="modal__btn-next-question">Далее</div>`);
+        if (btnNextQuestionCheck == null) {
+            modalMain.insertAdjacentHTML('beforeend', `<div class="modal__btn-next-question">Далее</div>`);
+        }
+    } else {
+        modalContent.innerHTML = `Поздравляю! Вы выиграли 1 000 000! Это окно закроется через 5 секунд`;
+
+        if (btnNextQuestionCheck != null) {
+            btnNextQuestionCheck.remove();
+        }
+
+        setTimeout(reloadPage, 5000);
     }
 
     modal.style.display = 'block';
@@ -343,11 +387,21 @@ function sucess() {
 function btnNextQuestion() {
     const btn = document.querySelector('.modal__btn-next-question');
 
-    btn.addEventListener('click', () => {
-        i++;
-        showMain(i);
-        modal.style.display = 'none';
-    }, {once: true})
+    if (btn != null) {
+        btn.addEventListener('click', () => {
+            let prices = document.querySelectorAll('.info__table div');
+
+            for (let item of prices) {
+                if (question[i].save == Number(item.textContent.replace(/\s/g, ''))) {
+                    savePriceForEnd = question[i].save;
+                }
+            }
+
+            i++;
+            showMain(i);
+            modal.style.display = 'none';
+        }, {once: true})
+    }
 }
 
 function reloadPage() {
@@ -408,4 +462,16 @@ function fiftyFifty() {
     }
 
     fiftyFiftyCheck = false;
+}
+
+function savePrice() {
+    let prices = document.querySelectorAll('.info__table div');
+
+    for (let item of prices) {
+        for (let j = 0; j < question.length; j++) {
+            if (Number(item.textContent.replace(/\s/g, '')) == question[j].save) {
+                item.classList.add('save-zone');
+            }
+        }
+    }
 }
